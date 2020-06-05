@@ -1,6 +1,6 @@
 # SimpleExcelReader7
 
-An excel reader based on PHPExcel
+An excel fast reader based on PHPExcel
 
 # example
 
