@@ -329,11 +329,11 @@ class SimpleExcelReader7 {
     }
 
     private function loadOptions($opts){
-        if(isset($opts["sheet_name"])) {
+        if(isset($opts["sheet_names"])) {
             if(is_array($opts["sheet_names"])) {
-                $this->sheetNames = $opts["sheet_name"];
+                $this->sheetNames = $opts["sheet_names"];
             }else{
-                $this->sheetNames = [$opts["sheet_name"]];
+                $this->sheetNames = [$opts["sheet_names"]];
             }
         }
         if(isset($opts["sheet_indexes"])) {
